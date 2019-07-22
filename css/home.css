@@ -1,0 +1,30 @@
+.home-body{
+	height: 100vh;
+}
+
+.mostplayed-img{
+    background-image: url("./../imgs/dva-bg.png");
+    background-size: cover;
+    position: relative;
+    height: 100%;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.mostplayed-icon{
+	z-index: 0;
+	position: relative;
+	object-fit: fill;
+}
+
+.playerCard{
+	height: 100%;
+	color: white;
+	padding: 2%;
+
+	background-image: linear-gradient(to bottom, #000000, #2b0e0a, transparent, transparent, transparent);
+}
+
+.row{
+	height: 30%;
+}
